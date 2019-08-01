@@ -20,3 +20,12 @@ $ npm run generate
 ```
 
 For detailed explanation on how things work, check out [Nuxt.js docs](https://nuxtjs.org).
+
+
+## Releases notes
+
+### Chapter 02 - 20190801
+
+- Adding menu
+- Update CSS
+- Update buttons in home page
