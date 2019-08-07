@@ -29,3 +29,8 @@ For detailed explanation on how things work, check out [Nuxt.js docs](https://nu
 - Adding menu
 - Update CSS
 - Update buttons in home page
+
+### Chapter 03 - 20190807
+
+- Configure database postgreSQL
+- Add migrations. Don't forget to launch adonis migration:run !
