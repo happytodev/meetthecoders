@@ -30,24 +30,34 @@
       </h1>
 
       <div class="coder-container">
-        <div class="blank"></div>
+        <div class="blank" />
         <div class="coder-info">
           <h3>Coder Name</h3>
           <p>Future coder description can go here.</p>
         </div>
       </div>
+      <!-- <div v-for="(language, index) in languages" :key="language.id+'_'+index">
+        <p>{{ language.id }} - {{ language.title }}  -  {{ language.description }}</p>
+      </div> -->
     </div>
   </div>
 </template>
 
 <script>
+//  import axios from 'axios'
 import Logo from '~/components/Logo.vue'
-
 export default {
   layout: 'main',
   components: {
     Logo
   }
+  // async asyncData ({ req }) {
+  //   const baseURL = process.env.apiUrl
+  //   const { data } = await axios.get(baseURL + '/languages')
+  //   return {
+  //     languages: data
+  //   }
+  //  }
 }
 </script>
 

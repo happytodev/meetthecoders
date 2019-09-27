@@ -1,6 +1,9 @@
 const { resolve } = require('path')
 
 module.exports = {
+  env: {
+    apiUrl: process.env.API_URL
+  },
   mode: 'universal',
   dev: process.env.NODE_ENV === 'development',
   srcDir: resolve(__dirname, '..', 'resources'),
