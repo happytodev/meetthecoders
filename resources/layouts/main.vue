@@ -5,6 +5,7 @@
       <nav>
         <ul>
           <li><a href="/">Coders</a></li>
+          <li><a href="/languages">Languages</a></li>
           <li><a href="/login">Login</a></li>
           <li><a href="/signup">Signup</a></li>
         </ul>

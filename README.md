@@ -11,6 +11,10 @@ $ npm run install
 # serve with hot reload at localhost:3000
 $ npm run dev
 
+or
+
+$ yarn dev
+
 # build for production and launch server
 $ npm run build
 $ npm run start
@@ -34,3 +38,11 @@ For detailed explanation on how things work, check out [Nuxt.js docs](https://nu
 
 - Configure database postgreSQL
 - Add migrations. Don't forget to launch adonis migration:run !
+
+### Chapter 05 - 20190927
+- Configure LanguageController.js
+- Add Bulma to the site
+- Use Languages.vue to presents all languages stored in database
+- Add languages menu
+- Add necessary migrations
+- Add pictures and logos for the languages

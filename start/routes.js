@@ -15,4 +15,6 @@
 
 const Route = use('Route')
 
+Route.get('api/languages/', 'LanguageController.home')
+
 Route.any('*', 'NuxtController.render')
